@@ -1,18 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-import Header from './components/Header';
-import BehanceList from './components/BehanceList';
-import Footer from './components/Footer';
+import "./App.css";
+import Header from "./components/Header";
+import BehanceList from "./components/BehanceList";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
-    <div className="main relative overflow-hidden">
-
-    <Header/>
-    <BehanceList/>
-    <Footer/>
-    </div>
+      <div className="main relative overflow-hidden">
+        <Header />
+        <BehanceList />
+        <Footer />
+      </div>
     </>
   );
 }
